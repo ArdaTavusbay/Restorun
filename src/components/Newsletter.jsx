@@ -25,9 +25,9 @@ const Newsletter = () => {
                 <br/>
                 <img className='w-20 mx-auto mt-[-1rem] bg-white' src={paper} alt="/"/>
               </div>
-              <div className='cursor-pointer bg-[#FFFFFF] w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                <h2 className='text-black text-2xl font-bold text-center py-8'>Detailed Design Report (Not done yet)</h2>
-                <h2 className='text-black text-xl font-bold text-center'>TBA</h2>
+              <div onClick={() => goToLink('https://drive.google.com/file/d/1RQv7-_lA2yuN1f0fAchp1YNmiaE2gEEj/view?usp=sharing')} className='cursor-pointer bg-[#FFFFFF] w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+                <h2 className='text-black text-2xl font-bold text-center py-8'>Detailed Design Report</h2>
+                <h2 className='text-black text-xl font-bold text-center'>15.03.2024</h2>
                 <br/>
                 <img className='w-20 mx-auto mt-[-1rem] bg-white' src={paper} alt="/"/>
               </div>
